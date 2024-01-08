@@ -24,7 +24,7 @@ The Banking Web Application is a comprehensive solution designed to manage banki
 - Responsive and user-friendly interface.
 
 ## How to Run
-1. Clone the repository: 
+1. Clone the repository: https://github.com/vivek1thakur/BankingWebApplication.git
 2. Open the project in NetBeans IDE.
 3. Configure the MySQL database settings in the application.
 4. Run the project and access the application in your web browser.
