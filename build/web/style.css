@@ -1,0 +1,284 @@
+/* style.css */
+
+/* Reset some default styles to ensure consistent rendering */
+body, h1, h2, h3, h4, h5, h6, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #fdbae3;
+  font-family: Arial, sans-serif;
+ 
+  line-height: 1.6;
+  color: #000000;
+}
+
+/* Header Styles */
+header {
+  background-color: #d40c15;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header img {
+  max-height: 40px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+nav li:first-child {
+  margin-left: 0;
+}
+
+nav a {
+  color: #ffe6e6;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+/* Main Styles */
+main {
+  
+   
+background-image:url('bgimage.jpg') ;
+  background-size: 2160px;
+ 
+  background-position: center;
+  color: #d40c15;
+  text-align: center;
+  padding: 100px 0;
+}
+
+ .container {
+        position: relative; /* Set the container to relative to position content inside it */
+        width: 800px; /* Set the desired width for the container */
+        height: 600px; /* Set the desired height for the container */
+        background-image: url('bg.png'); /* Replace 'your-background-image.png' with the actual path to your PNG file */
+        background-size: contain; /* Adjust the background image size to cover the container */
+        background-repeat: no-repeat; /* Prevent the background from repeating */
+        color: white; /* Set the text color for better visibility on the background */
+             margin: 0 auto;
+    }
+
+ Hero Section Styles 
+.hero {
+  
+background-image:url('bgim.png') ;
+  background-size: 2160px;
+ 
+  background-position: center;
+  color: #d40c15;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.hero h1 {
+    color: #d40c15;
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.hero h1 {
+    color: #d40c15;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.hero h3 {
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.hero p {
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+/* Form Styles */
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+ 
+  border: 5px solid #8B0000;
+  border-radius: 10px;
+ color: "#FF0000.";
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 10px;
+  border: 2px solid #ccc;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="password"],
+select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+select {
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+.cta-button {
+  background-color: #f23f4b;
+  color: #FFF;
+  padding: 10px 20px;
+  font-size: 18px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.cta-button:hover {
+  background-color: #000;
+}
+
+/* Services Section Styles */
+.services {
+  margin-top: 50px;
+}
+
+.services h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.services ul {
+  list-style: circle;
+}
+
+.services li {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+/* About Us Section Styles */
+.about-us {
+  /* font-size: 16px; */
+  margin-top: 50px;
+}
+
+.about-us h2 {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.about-us p {
+  font-size: 10px;
+  line-height: 1.8;
+}
+
+/* Contact Section Styles */
+.contact {
+  margin-top: 50px;
+}
+
+.contact h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.contact form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.contact label {
+  font-size: 18px;
+}
+
+.contact input,
+.contact textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #CCC;
+  border-radius: 5px;
+}
+
+.contact button {
+  background-color: #666666;
+  color: #FFF;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact button:hover {
+  background-color: #0056b3;
+}
+/* Style for the video container */
+.video-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Style for the video player */
+video {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: #FFF;
+  text-align: center;
+  padding: 20px;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+footer li:last-child {
+  margin-right: 0;
+}
+
+footer a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  /* Add responsive styles for smaller screens */
+  /* Example: Adjust the layout for mobile devices */
+}
